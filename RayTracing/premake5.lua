@@ -1,4 +1,4 @@
-project "WalnutApp"
+project "RayTracing"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++17"
@@ -12,7 +12,7 @@ project "WalnutApp"
       "../vendor/imgui",
       "../vendor/glfw/include",
 
-      "../Walnut/src",
+      "../RayTracing/src",
 
       "%{IncludeDir.VulkanSDK}",
       "%{IncludeDir.glm}",
@@ -20,7 +20,7 @@ project "WalnutApp"
 
     links
     {
-        "Walnut"
+        "RayTracing"
     }
 
    targetdir ("../bin/" .. outputdir .. "/%{prj.name}")

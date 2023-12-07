@@ -1,4 +1,4 @@
-project "Walnut"
+project "RayTracing"
    kind "StaticLib"
    language "C++"
    cppdialect "C++17"
